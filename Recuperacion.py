@@ -20,13 +20,13 @@ for i in range(cantidad_productos):
     # Validar que el precio sea positivo
     precio = float(input("Precio del producto: "))
     if precio <= 0:
-        print("⚠ El precio debe ser un numero positivo. Se establecera en 0.")
+        print("El precio debe ser un numero positivo. Se establecera en 0.")
         precio = 0
     
     # Validar que la cantidad sea valida (entero positivo)
     cantidad = int(input("Cantidad disponible: "))
     if cantidad < 0:
-        print("⚠ La cantidad no puede ser negativa. Se establecera en 0.")
+        print("La cantidad no puede ser negativa. Se establecera en 0.")
         cantidad = 0
     
     # Guardar producto en un diccionario
